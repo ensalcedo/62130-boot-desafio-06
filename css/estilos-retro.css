@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Lobster&family=Lobster+Two&family=Roboto:wght@100;900&family=Tsukimi+Rounded:wght@700&display=swap');
+
+body {
+    background-image: url("../imagenes/gym3.jpeg");
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lobster Two', cursive;
+    height: auto;
+    text-align: center;
+
+}
+
+.largo-input {
+    border-radius: 30px;
+    width: 40%;
+    margin-top: 5px;
+}
+
+.largo-select {
+    border-radius: 30px;
+    width: 40%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+section {
+    width: 60%;
+    margin: auto;
+
+}
+
+.input-textarea {
+    margin-top: 30px;
+}
+
+
+fieldset {
+    background-color: rgba(220, 123, 84, 0.699);
+    padding: 7%;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.863);
+}
+
+h1 {
+
+    background-color: rgb(220, 123, 84);
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid #ffffff;
+    font-family: 'Lobster Two', cursive;
+    font-size: 35px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.863);
+    margin-bottom: 20px;
+}
+
+.personales label {
+    float: left;
+
+
+}
+
+.fieldset-datos label {
+    float: left;
+
+
+}
+
+
+.fieldset-actividades {
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+
+button {
+
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgba(220, 123, 84, 0.699);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.863);
+    margin: 30px;
+}
+
+hr {
+    border: none;
+    border-top: 15px dashed rgba(220, 123, 84, 0.699);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.863);
+    width: 70%;
+    margin: 25px auto;
+}

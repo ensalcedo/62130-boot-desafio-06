@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #1f2023;
+    text-align: center;
+}
+
+h1 {
+    border-top: 15px solid #4d6d63;
+    border-bottom: 15px solid #4d6d63;
+    color: #e8eaed;
+    text-align: center;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+fieldset {
+    background-color: #d6e2de;
+    border-radius: 3px;
+    text-align: center;
+
+
+}
+
+legend {
+    background-color: #4d6d63;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+
+
+}
+
+
+.fieldset-actividades {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.terminos {
+    color: #ffffff;
+}
+
+hr {
+
+    border: none;
+    border-top: 15px dotted #ccc;
+    width: 50%;
+
+    margin: 25px auto;
+
+
+}
+
+.largo-input {
+    width: 80%;
+    padding: 4px;
+    margin: 10px 0;
+}
+
+.largo-input:focus {
+
+    background-color: #4d6d63;
+    color: #ffffff;
+}
+
+.largo-select {
+    width: 80%;
+    padding: 4px;
+    margin: 10px 0;
+}
+
+
+textarea {
+    height: 100px;
+    resize: vertical;
+
+}
+
+.sexo {
+    margin: 3px 0;
+}
+
+
+span {
+    font-size: large;
+}
+
+a {
+    margin-left: 30px;
+}
+
+fieldset:focus-within legend {
+    background-color: #2b3d37;
+}
+
+fieldset:focus-within {
+    background-color: #a6c1b9;
+}
+
+
+.input-right:focus {
+
+    background-color: #4d6d63;
+}
+
+
+
+.input-right {
+    text-align: right;
+
+}
+
+
+
+input {
+    margin: 10px 0;
+}
+
+
+button {
+    background-color: #2b3d37;
+    color: #8dc1b9;
+    padding: 6px 6px;
+    border-color: #4d6d63;
+    border: solid 0.0084px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+button:hover {
+    background-color: #8dc1b9;
+    color: #2b3d37;
+}

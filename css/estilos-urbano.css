@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Roboto:wght@100;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Lobster&family=Roboto:wght@100;900&display=swap');
+
+body {
+    background-image: url("../imagenes/Gym.jpg");
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Chewy', cursive;
+    height: auto;
+    text-align: center;
+}
+
+section {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+fieldset {
+    background-color: rgba(0, 0, 0, 0.671);
+    border: 0;
+    border-radius: 30px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+
+
+}
+
+.fieldset-actividades {
+    margin-bottom: 20px;
+}
+
+legend {
+    text-align: center;
+    background-color: rgba(12, 10, 126, 0.411);
+    width: auto;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+option {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+textarea,
+select,
+input {
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+
+form input,
+select,
+textarea {
+    border: none;
+    border-bottom: 3px solid #9e9a9a;
+
+}
+
+textarea:focus {
+    outline: none;
+    border-bottom: 3px solid #ffffff;
+}
+
+.largo-input {
+    width: 50%;
+    padding: 4px;
+    margin: 10px 0;
+}
+
+.fieldset-datos input {
+    border: none;
+    border-bottom: 3px solid #9e9a9a;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 3px solid #ffffff;
+}
+
+.largo-select {
+
+    width: 50%;
+    padding: 4px;
+    margin: 10px 0;
+
+}
+
+
+
+.palermo {
+    float: left;
+
+    width: 50%;
+}
+
+.rosario {
+    float: right;
+
+    width: 50%;
+
+}
+
+
+h1 {
+    animation: fadeIn 7s;
+    font-size: 40px;
+    font-family: 'Chewy', cursive;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+button {
+
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1900ff94;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.7);
+    transition: all 0.2s ease-in-out;
+    margin: 30px;
+}
+
+button:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+hr {
+    margin: 30px;
+    background: linear-gradient(to right, rgb(255, 0, 179), blue);
+    opacity: 0.7;
+    height: 5px;
+}
+
